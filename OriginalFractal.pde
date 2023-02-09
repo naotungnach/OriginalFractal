@@ -12,9 +12,9 @@ public void draw(){
   //if (limit <= 0){limit = 10;}
 }
 public void keyPressed(){
-  if (key == 'a'){limit = limit + 5;}
+  if (key == 'a'){limit = limit + 10;}
   //if (key == 'd'){limit = limit - 5;}
-  if (key == 's'){limit = 5;}
+  if (key == 's'){limit = 10;}
 }
 public void myFractal(int x, int y, int siz){
   //noStroke();
